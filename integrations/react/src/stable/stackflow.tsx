@@ -40,6 +40,7 @@ function parseActionOptions(options?: { animate?: boolean }) {
 
 export type StackComponentType = React.FC<{
   initialContext?: any;
+  children: React.ReactNode
 }>;
 
 type StackflowPluginsEntry<T extends BaseActivities> =
